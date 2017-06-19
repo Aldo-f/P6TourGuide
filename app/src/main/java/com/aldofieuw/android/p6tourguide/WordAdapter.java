@@ -44,7 +44,7 @@ public class WordAdapter extends ArrayAdapter<Word> {
      * @param words           is the list of {@link Word}s to be displayed.
      * @param colorResourceId is the resource ID for the background color for this list of words
      */
-    private WordAdapter(Context context, ArrayList<Word> words, int colorResourceId) {
+    public WordAdapter(Context context, ArrayList<Word> words, int colorResourceId) {
         super(context, 0, words);
         mColorResourceId = colorResourceId;
     }
