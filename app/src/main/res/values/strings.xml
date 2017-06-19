@@ -101,6 +101,7 @@
     <string name="museums_thehouseofalijn_location">Kraanlei 65 \n9000 Gent</string>
     <string name="museums_miat">MIAT, Museum about Industry, Labour and Textile</string>
     <string name="museums_miat_location">Minnemeers 10 \n9000 Gent</string>
+    <string name="name_of_the_location">Name of the location</string>
 
 
 </resources>
