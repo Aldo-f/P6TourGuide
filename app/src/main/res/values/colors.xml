@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_color">#3F51B5</color>
+    <color name="primary_dark_color">#303F9F</color>
+    <color name="accent">#FF4081</color>
+
+    <!-- Text -->
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+
+    <!-- green ghent -->
+    <color name="background">#FFFFFF</color>
+
+    <!-- green ghent -->
+    <color name="fragment_green_ghent">#FFFFFF</color>
+
+    <!-- museums -->
+    <color name="fragment_museums">#FFFFFF</color>
+
+    <!-- historical places -->
+    <color name="fragment_historicalplaces">#FFFFFF</color>
+
+    <!-- havenly ghent -->
+    <color name="fragment_heavenly_ghent">#FFFFFF</color>
+
+</resources>

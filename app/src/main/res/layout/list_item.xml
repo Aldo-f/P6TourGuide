@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Layout for a single list item -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_item_height"
+    android:minHeight="@dimen/list_item_height"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="@dimen/list_item_width"
+        android:layout_height="@dimen/list_item_height"
+        android:scaleType="centerCrop"
+        android:src="@drawable/green_ghent_stpeter" />
+
+    <RelativeLayout
+        android:id="@+id/text_container"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/dp_8"
+        android:paddingEnd="@dimen/dp_8"
+        android:paddingLeft="@dimen/dp_16"
+        android:paddingRight="@dimen/dp_8"
+        android:paddingStart="@dimen/dp_16"
+        android:paddingTop="@dimen/dp_8">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/primary_text"
+            tools:text="St Bavo's Abbey" />
+
+        <TextView
+            android:id="@+id/location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:autoLink="web"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="@color/secondary_text"
+            tools:text="Voorhoutkaai 43\n9000 Gent" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

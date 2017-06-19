@@ -1,0 +1,106 @@
+<!-- Copyright (C) 2016 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">Ghent Tour Guide</string>
+
+
+    <!-- Green Ghent [CHAR LIMIT=20] -->
+    <string name="fragment_green_gent">Green</string>
+
+    <!-- Heavenly Ghent [CHAR LIMIT=20] -->
+    <string name="fragment_historical_places">History</string>
+
+    <!-- Musea [CHAR LIMIT=20] -->
+    <string name="fragment_musea">Museums</string>
+
+    <!-- Historical places [CHAR LIMIT=20] -->
+    <string name="fragment_heavenly_gent">Heavenly</string>
+
+    <!--green ghent-->
+    <string name="green_ghent_stbavo">St Bavo\'s Abbey</string>
+    <string name="green_ghent_stbavo_location">Voorhoutkaai 43\n9000 Gent</string>
+
+    <string name="green_ghent_stpeter">Garden and Vineyard at St Peter\'s Abbey</string>
+    <string name="green_ghent_stpeter_location">Sint-Pietersplein 9\n9000 Gent</string>
+
+    <string name="green_ghent_beguinages">Old St Elizabeth Beguinage</string>
+    <string name="green_ghent_beguinages_location">Begijnhofdries\n9000 Gent</string>
+
+    <string name="green_ghent_blaarmeersen">Blaarmeersen Sports and Recreation Park</string>
+    <string name="green_ghent_blaarmeersen_location">Strandlaan 24\n9000 Gent</string>
+
+    <string name="green_ghent_ghentuniversity">Ghent University Botanical Garden</string>
+    <string name="green_ghent_ghentuniversity_location">K.L. Ledeganckstraat 35\n9000 Gent</string>
+
+    <string name="green_ghent_hofvanrijhove">Hof van Rijhove</string>
+    <string name="green_ghent_hofvanrijhove_location">Onderstraat 22\n9000 Gent</string>
+
+    <string name="green_ghent_monastery">Monastery of the Carmelite Fathers</string>
+    <string name="green_ghent_monastery_location">Burgstraat 46\n9000 Gent</string>
+
+    <string name="green_ghent_naturedomaindebourgoyen">Nature Domain De Bourgoyen</string>
+    <string name="green_ghent_naturedomaindebourgoyen_location">Driepikkelstraat 32\n9030 Mariakerke (Gent)</string>
+
+    <string name="green_ghent_smallbeguinage">Small Beguinage Our Lady of Ter Hoyen</string>
+    <string name="green_ghent_smallbeguinage_location">Lange Violettestraat 235\n9000 Gent</string>
+
+    <string name="green_ghent_theworldofkina">The World of Kina: the Garden</string>
+    <string name="green_ghent_theworldofkina_location">Berouw 55\n9000 Gent</string>
+
+    <!-- heavenly ghent -->
+    <string name="heavenly_ghent_theadorationofthemysticlamb">The Adoration of the Mystic Lamb</string>
+    <string name="heavenly_ghent_theadorationofthemysticlamb_location">Sint-Baafsplein \n9000 Gent</string>
+
+    <string name="heavenly_ghent_stbavocathedral">St Bavo\'s Cathedral</string>
+    <string name="heavenly_ghent_stbavocathedral_location">Sint-Baafsplein \n9000 Gent</string>
+
+    <string name="heavenly_ghent_tstnicolaschurch">St Nicholas\' Church</string>
+    <string name="heavenly_ghent_tstnicolaschurch_location">Cataloniëstraat \n9000 Gent</string>
+
+    <string name="heavenly_ghent_tstpetersabbey">St Peter\'s Abbey</string>
+    <string name="heavenly_ghent_tstpetersabbey_location">Sint-Pietersplein 9 \n9000 Gent</string>
+
+    <!--historical-->
+    <string name="historical_ghent_patershol">Patershol</string>
+    <string name="historical_ghent_prinsenhof"><![CDATA[Prinsenhof & Lievekaai]]></string>
+    <string name="historical_ghent_vrijdagsmarkt">Vrijdagmarkt</string>
+    <string name="historical_ghent_kouter">Kouter</string>
+    <string name="historical_ghent_camposanto">Campo Santo</string>
+    <string name="historical_ghent_groentenmarkt">Groentenmarkt</string>
+
+    <string name="historical_ghent_patershol_location">Haringsteeg 3 \n9000 Gent</string>
+    <string name="historical_ghent_prinsenhof_location">Prinsenhof \n9000 Gent</string>
+    <string name="historical_ghent_vrijdagsmarkt_location">Vrijdagmarkt \n9000 Gent</string>
+    <string name="historical_ghent_kouter_location">Kouter \n9000 Gent</string>
+    <string name="historical_ghent_camposanto_location">Verkortingsstraat / Visitatiestraat 13 \n9040 Sint-Amandsberg (Gent)</string>
+    <string name="historical_ghent_groentenmarkt_location">Groentenmarkt \n9000 Gent</string>
+
+    <!--museums -->
+    <string name="museums_stam">STAM - Ghent City Museum</string>
+    <string name="museums_stam_location">Bijlokesite Godshuizenlaan 2 \n9000 Gent</string>
+    <string name="museums_museumoffinearts">Museum of Fine Arts</string>
+    <string name="museums_museumoffinearts_location">Citadelpark, Fernand Scribedreef 1 \n9000 Gent</string>
+    <string name="museums_smak">S.M.A.K.</string>
+    <string name="museums_smak_location">Jan Hoetplein 1 \n9000 Gent</string>
+    <string name="museums_designmuseumghent">Design museum Gent</string>
+    <string name="museums_designmuseumghent_location">Jan Breydelstraat 5 \n9000 Gent</string>
+    <string name="museums_thehouseofalijn">The House of Alijn</string>
+    <string name="museums_thehouseofalijn_location">Kraanlei 65 \n9000 Gent</string>
+    <string name="museums_miat">MIAT, Museum about Industry, Labour and Textile</string>
+    <string name="museums_miat_location">Minnemeers 10 \n9000 Gent</string>
+
+
+</resources>
