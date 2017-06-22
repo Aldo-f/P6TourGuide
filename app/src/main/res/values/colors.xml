@@ -11,10 +11,4 @@
 
     <!-- background -->
     <color name="background">#FFFFFF</color>
-
-    <!-- Fragment backgrounds  -->
-    <color name="fragment_green_ghent">@color/background</color>
-    <color name="fragment_museums">@color/background</color>
-    <color name="fragment_historicalplaces">@color/background</color>
-    <color name="fragment_heavenly_ghent">@color/background</color>
 </resources>

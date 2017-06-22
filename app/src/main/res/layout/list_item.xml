@@ -10,10 +10,11 @@
         android:id="@+id/image"
         android:layout_width="@dimen/list_item_width"
         android:layout_height="@dimen/list_item_height"
+        android:contentDescription="@null"
         android:scaleType="centerCrop"
         android:src="@drawable/green_ghent_stpeter" />
 
-    <RelativeLayout
+    <LinearLayout
         android:id="@+id/text_container"
         android:layout_width="match_parent"
         android:layout_height="@dimen/list_item_height"
@@ -28,7 +29,8 @@
         <TextView
             android:id="@+id/title"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
             android:textAppearance="?android:textAppearanceMedium"
             android:textColor="@color/primary_text"
             tools:text="St Bavo's Abbey" />
@@ -37,13 +39,9 @@
             android:id="@+id/location"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:autoLink="web"
             android:textAppearance="?android:textAppearanceSmall"
             android:textColor="@color/secondary_text"
             tools:text="Voorhoutkaai 43\n9000 Gent" />
 
-    </RelativeLayout>
-
-
+    </LinearLayout>
 </LinearLayout>

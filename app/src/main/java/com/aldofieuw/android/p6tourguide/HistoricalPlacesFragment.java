@@ -35,27 +35,27 @@ public class HistoricalPlacesFragment extends Fragment {
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.word_list, container, false);
 
-        // Create a list of words
-        final ArrayList<Word> words = new ArrayList<Word>();
-        words.add(new Word(R.string.historical_ghent_patershol, R.string.historical_ghent_patershol_location, R.drawable.historical_ghent_patershol));
-        words.add(new Word(R.string.historical_ghent_prinsenhof, R.string.historical_ghent_prinsenhof_location, R.drawable.historical_ghent_prinsenhof));
-        words.add(new Word(R.string.historical_ghent_vrijdagsmarkt, R.string.historical_ghent_vrijdagsmarkt_location, R.drawable.historical_ghent_vrijdagsmarkt));
-        words.add(new Word(R.string.historical_ghent_kouter, R.string.historical_ghent_kouter_location, R.drawable.historical_ghent_kouter));
-        words.add(new Word(R.string.historical_ghent_camposanto, R.string.historical_ghent_camposanto_location, R.drawable.historical_ghent_camposanto));
-        words.add(new Word(R.string.historical_ghent_groentenmarkt, R.string.historical_ghent_groentenmarkt_location, R.drawable.historical_ghent_groentenmarkt));
+        // Create a list of locations
+        final ArrayList<Location> locations = new ArrayList<Location>();
+        locations.add(new Location(R.string.historical_ghent_patershol, R.string.historical_ghent_patershol_location, R.drawable.historical_ghent_patershol));
+        locations.add(new Location(R.string.historical_ghent_prinsenhof, R.string.historical_ghent_prinsenhof_location, R.drawable.historical_ghent_prinsenhof));
+        locations.add(new Location(R.string.historical_ghent_vrijdagsmarkt, R.string.historical_ghent_vrijdagsmarkt_location, R.drawable.historical_ghent_vrijdagsmarkt));
+        locations.add(new Location(R.string.historical_ghent_kouter, R.string.historical_ghent_kouter_location, R.drawable.historical_ghent_kouter));
+        locations.add(new Location(R.string.historical_ghent_camposanto, R.string.historical_ghent_camposanto_location, R.drawable.historical_ghent_camposanto));
+        locations.add(new Location(R.string.historical_ghent_groentenmarkt, R.string.historical_ghent_groentenmarkt_location, R.drawable.historical_ghent_groentenmarkt));
 
 
-        // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
+        // Create an {@link LocationAdapter}, whose data source is a list of {@link Location}s. The
         // adapter knows how to create list items for each item in the list.
-        WordAdapter adapter = new WordAdapter(getActivity(), words, R.color.fragment_historicalplaces);
+        LocationAdapter adapter = new LocationAdapter(getActivity(), locations);
 
         // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
         // There should be a {@link ListView} with the view ID called list, which is declared in the
         // word_list.xml layout file.
         ListView listView = (ListView) rootView.findViewById(R.id.list);
 
-        // Make the {@link ListView} use the {@link WordAdapter} we created above, so that the
-        // {@link ListView} will display list items for each {@link Word} in the list.
+        // Make the {@link ListView} use the {@link LocationAdapter} we created above, so that the
+        // {@link ListView} will display list items for each {@link Location} in the list.
         listView.setAdapter(adapter);
 
         return rootView;
